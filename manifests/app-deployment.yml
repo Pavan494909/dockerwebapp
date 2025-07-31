@@ -21,7 +21,7 @@ spec:
       imagePullSecrets:
         - name: dockerhub
 
-
+#kubectl create secret generic dockerhub -secret--docker-server=docker.io --from-literal=username=pavan [root@ip-172-31-81-0 ~]# kubectl create secret docker-registry dockerhub --docker-server=https://index.docker.io/v1 --docker-username=username=pavan49909v --docker-password=
 
 
 ---
